@@ -1,0 +1,15 @@
+DEBUG 2016-12-20 09:32:41,578 utils 20257 123145361063936 (0.022) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2016-12-20 09:32:41,602 utils 20257 123145361063936 (0.022) SELECT VERSION(); args=None
+DEBUG 2016-12-20 09:32:42,095 utils 20257 123145361063936 (0.024) SHOW FULL TABLES; args=None
+DEBUG 2016-12-20 09:32:42,133 utils 20257 123145361063936 (0.025) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2016-12-20 09:53:09,947 utils 20535 123145425039360 (0.021) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2016-12-20 09:53:09,969 utils 20535 123145425039360 (0.021) SELECT VERSION(); args=None
+DEBUG 2016-12-20 09:53:10,615 utils 20535 123145425039360 (0.022) SHOW FULL TABLES; args=None
+DEBUG 2016-12-20 09:53:10,664 utils 20535 123145425039360 (0.029) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+DEBUG 2016-12-20 18:09:11,293 base 20535 123145429245952 Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/Users/QISAMA/Library/Python/2.7/lib/python/site-packages/django/template/base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+WARNING 2016-12-20 18:09:11,304 base 20535 123145429245952 Not Found: /
+WARNING 2016-12-20 18:09:11,308 basehttp 20535 123145429245952 "GET / HTTP/1.1" 404 2007
