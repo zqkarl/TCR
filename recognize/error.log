@@ -1,0 +1,21 @@
+2016/12/20 15:37:35 [emerg] 31407#0: "server" directive is not allowed here in /etc/nginx/nginx.conf:39
+2016/12/20 15:41:19 [error] 31470#0: *3 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET /a HTTP/1.1", upstream: "uwsgi://10.0.0.139:8001", host: "10.0.0.139"
+2016/12/20 15:43:04 [error] 31535#0: *3 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET /admin HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139"
+2016/12/20 15:44:51 [error] 31535#0: *5 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET /admin/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139"
+2016/12/20 15:56:39 [error] 31535#0: *9 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET /admin/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139"
+2016/12/20 16:10:06 [error] 31797#0: *3 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET /admin/ HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139"
+2016/12/20 16:10:06 [emerg] 31844#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2016/12/20 16:10:06 [emerg] 31844#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2016/12/20 16:10:06 [emerg] 31844#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2016/12/20 16:10:06 [emerg] 31844#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2016/12/20 16:10:06 [emerg] 31844#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2016/12/20 16:10:06 [emerg] 31844#0: still could not bind()
+2016/12/20 16:11:55 [error] 31868#0: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET / HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139:8002"
+2016/12/20 16:12:55 [error] 31868#0: *3 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139:8002", referrer: "http://10.0.0.139:8002/"
+2016/12/20 16:16:38 [error] 31957#0: *3 upstream prematurely closed connection while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET / HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139:8002"
+2016/12/20 16:18:07 [error] 31957#0: *3 upstream prematurely closed connection while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET /admin HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139:8002"
+2016/12/20 16:52:20 [error] 31957#0: *6 upstream prematurely closed connection while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET /admin HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139:8002"
+2016/12/20 17:11:20 [error] 32401#0: *1 upstream prematurely closed connection while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET / HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139:8002"
+2016/12/20 17:16:47 [error] 32485#0: *1 upstream prematurely closed connection while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET / HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139:8002"
+2016/12/20 17:19:00 [emerg] 32528#0: directive "access_log" is not terminated by ";" in /etc/nginx/conf.d/TCR.conf:10
+2016/12/20 17:20:39 [error] 32485#0: *9 upstream prematurely closed connection while reading response header from upstream, client: 172.28.125.45, server: 10.0.0.139, request: "GET / HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.0.0.139:8002"
